@@ -1,20 +1,4 @@
 /** Type Here **/
-
-$(window).on('statechange', function (ev) {
-    // popState なイベントハンドラ
-    
-});
-
-/*
- * object.watch polyfill
- *
- * 2012-04-03
- *
- * By Eli Grey, http://eligrey.com
- * Public Domain.
- * NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.
- */
- 
 // object.watch
 if (!Object.prototype.watch) {
 	console.log("123456");
@@ -62,6 +46,9 @@ if (!Object.prototype.unwatch) {
 }
 
 $(function(){
+
+	console.log("pjax");
+
 	$.pjax({ 
 		area: '#changed,#container',
 		link: 'a'
@@ -69,9 +56,10 @@ $(function(){
 	
 	$.breakpage({
 		debug:true,
+		root:"/~mori/breakpage/Demo",
 		functions:[
 			{
-				from:"/index.html",
+				from:"/index.html,/",
 				to:"/page2.html",
 				do:function(){
 					console.log("DO!!!");
@@ -87,4 +75,7 @@ $(function(){
 			}
 		]
 	});
+	function call(){
+		console.log(1234567890);
+	}
 });
