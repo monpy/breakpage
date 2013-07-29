@@ -2,26 +2,26 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8317",
   "files" : {
-    "\/Demo\/javascripts\/vendor\/jquery.breakpage-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.breakpage-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/vendor\/jquery.breakpage-min-min.js",
-      "fileType" : 64
-    },
-    "\/Demo\/stylesheets\/sass\/screen.scss" : {
+    "\/Demo\/javascripts\/html4+html5\/right.history.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/stylesheets\/sass\/screen.scss",
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/right.history.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/right.history-min.js",
+      "fileType" : 64
+    },
+    "\/Demo\/stylesheets\/sass\/_base\/_base.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Demo\/stylesheets\/sass\/_base\/_base.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "outputAbbreviatedPath" : "\/stylesheets\/_base.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -67,17 +67,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/Demo\/stylesheets\/sass\/_base\/_base.scss" : {
+    "\/Demo\/javascripts\/vendor\/jquery.breakpage-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/stylesheets\/sass\/_base\/_base.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/stylesheets\/_base.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.breakpage-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/vendor\/jquery.breakpage-min-min.js",
+      "fileType" : 64
     },
     "\/Demo\/javascripts\/vendor\/jquery.history.js" : {
       "ignoreWasSetByUser" : 0,
@@ -112,15 +111,15 @@
       "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery-1.10.2.min-min.js",
       "fileType" : 64
     },
-    "\/Demo\/javascripts\/vendor\/jquery.hashchange.js" : {
+    "\/Demo\/javascripts\/html4+html5\/mootools.history.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.hashchange.js",
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/mootools.history.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.hashchange-min.js",
+      "outputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/mootools.history-min.js",
       "fileType" : 64
     },
     "\/Demo\/javascripts\/vendor\/jquery.history-html45.js" : {
@@ -134,15 +133,15 @@
       "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.history-html45-min.js",
       "fileType" : 64
     },
-    "\/Demo\/javascripts\/html4+html5\/mootools.history.js" : {
+    "\/Demo\/javascripts\/vendor\/jquery.hashchange.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/mootools.history.js",
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.hashchange.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/mootools.history-min.js",
+      "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.hashchange-min.js",
       "fileType" : 64
     },
     "\/Demo\/page2.html" : {
@@ -165,6 +164,17 @@
       "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.lazyjaxdavis-min.js",
       "fileType" : 64
     },
+    "\/Demo\/javascripts\/site.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/site.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Demo\/javascripts\/site-min.js",
+      "fileType" : 64
+    },
     "\/Demo\/stylesheets\/sass\/_module\/_index.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -176,17 +186,6 @@
       "outputAbbreviatedPath" : "\/stylesheets\/_index.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/Demo\/javascripts\/site.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/site.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Demo\/javascripts\/site-min.js",
-      "fileType" : 64
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -219,28 +218,6 @@
       "outputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/zepto.history-min.js",
       "fileType" : 64
     },
-    "\/Demo\/javascripts\/vendor\/jquery.pjax.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.pjax.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.pjax-min.js",
-      "fileType" : 64
-    },
-    "\/Demo\/javascripts\/html4+html5\/mootools.history-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/mootools.history-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/html4+html5\/mootools.history-min-min.js",
-      "fileType" : 64
-    },
     "\/Demo\/stylesheets\/sass\/_base\/_util.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -253,6 +230,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/Demo\/javascripts\/html4+html5\/mootools.history-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/mootools.history-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/html4+html5\/mootools.history-min-min.js",
+      "fileType" : 64
+    },
     "\/Demo\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -261,6 +249,17 @@
       "inputAbbreviatedPath" : "\/Demo\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/Demo\/javascripts\/vendor\/jquery.pjax.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.pjax.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/Demo\/javascripts\/vendor\/jquery.pjax-min.js",
+      "fileType" : 64
     },
     "\/Demo\/javascripts\/html4+html5\/extjs.history.js" : {
       "ignoreWasSetByUser" : 0,
@@ -284,16 +283,17 @@
       "outputAbbreviatedPath" : "\/javascripts\/site-min-min.js",
       "fileType" : 64
     },
-    "\/Demo\/javascripts\/html4+html5\/right.history.js" : {
+    "\/Demo\/stylesheets\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/right.history.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/Demo\/javascripts\/html4+html5\/right.history-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/Demo\/stylesheets\/sass\/screen.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/stylesheets\/screen.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [

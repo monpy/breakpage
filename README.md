@@ -1,13 +1,53 @@
+# 現在開発中なんだが
+----
+今、正規表現判定を模索；；
+
 # Break Page JS
-pjaxとか便利な世の中になったなかで、まだ、頁遷移間の壁を感じることが多々あった。
 
-**どこから どこへ**　頁遷移したかは、考えてみれば物語が動くことと動議である。
+----
 
-AからBへ、とBからAへ　移動するというのは、物語の中では全く別の行為である。
+このライブラリはpjaxとか果てしない流れの ** 流れを捉える ** ライブラリ
 
-それを同じ表現に納めてしまうと、物語の表情が著しく乏しくなりそう。
+つまるところ、頁遷移をキャッチして、関数を動かそうということ。
 
-まぁそんなこといったって、Flashじゃねーんだし。
+pjax の pushState と popState に反応して動きます。
 
-とか色々考えたが、とにかく作ろう！！！！
+どこから:from どこへ:to を察知して処理:do します。
 
+#Installation
+----
+	<script type="text/javascript" src="./jsvascripts/vendor/jquery.1.8.3"></script>
+	<script type="text/javascript" src="./javascripts/vendor/jquery.breakpage.js"></script>
+
+#動作環境
+----
+pushStateが使えるブラウザを考えております。
+
+#Usage
+----
+	$.breakpage({
+		debug:true, //デバックコンソール、URLの流れが表示されます
+		functions:[
+			{
+				from:"/index.html",	//来たとこ
+				to:"/page2.html",//行くとこ
+				do:function(){//行う関数
+					console.log("DO!!!");
+					$("body").css({background:"gray"});
+				}
+			},{
+				from:"/page2.html",
+				to:"/index.html",
+				do:function(){
+					console.log("NO!!!");	
+					$("body").css({background:"white"});
+				}
+			}
+			,….
+		]
+	});
+	
+#諸注意
+現在無職の僕に仕事ください。
+
+mail : mroi@scriptorium.jp
