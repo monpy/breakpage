@@ -17,7 +17,6 @@ pjax の pushState と popState に反応して動きます。
 	<script type="text/javascript" src="./javascripts/vendor/jquery.breakpage.js"></script>
 
 #動作環境
-----
 pushStateが使えるブラウザを考えております。
 
 #Usage
