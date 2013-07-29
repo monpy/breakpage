@@ -1,0 +1,19 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* コンパスの機能を全部インポート */
+@import "compass";
+
+/* リセット用CSSをインポート */
+@import "compass/reset";
+
+/* サイトで共有する全ての変数と関数、Mixinsを記述 */
+@import "_base/_util";
+
+/* サイトの構造を司るscssを記述 */
+@import "_base/_base";
+
+/* トップページのscssを記述 */
+@import "_module/_index";
